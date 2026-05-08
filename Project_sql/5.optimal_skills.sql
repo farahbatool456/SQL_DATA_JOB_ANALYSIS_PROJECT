@@ -44,7 +44,7 @@ LIMIT 25;
 
 
 -- Rewriting this same query more concisely
--- AND this query is with CTEs
+-- AND this query is without CTEs
 SELECT
     skills_dim.skill_id,
     skills_dim.skills,
